@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #153d3d;
+    color:rgb(240, 233, 233);
+    font-family: 'poppins',sans-serif;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    color: rgb(227, 233, 238);
+    background-color: #093434;
+}
+nav .left{
+    font-weight: bold;
+    
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(238, 230, 221);
+}
+nav ul li a:hover{
+    color: rgb(226, 124, 124);
+    font-size: 1.04rem;
+}
+.left{
+    font: size 1.5rem;
+
+}
+.firstSection{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    
+    
+    
+}
+.firstSection > div{
+    width: 30%;
+   }
+.leftSection{
+    font-size: 2.5rem;
+    margin: 75px 0;
+    
+
+}
+.rightSection img{
+   
+    width: 100%;
+    margin:80px 0;
+} 
+.purple{
+    color: rgb(139, 38, 240);
+    margin-bottom:0;
+    font-weight: 500;
+}
+#element{
+    color: rgb(139, 34, 240);
+    margin-bottom: 0; 
+    font-weight: 500;
+}
+.firstSection .btn{
+    margin-top: 100px;
+    padding: 10px 10px;
+     border-radius:5px ;
+     background-color:#1d1c1c;
+     border: 3px solid #d1d4d4;
+    font-size: 20px;
+     text-decoration: none;
+     transition: 0.3s;
+     color:rgba(229, 233, 210, 0.818);
+     }
+     .firstSection .btn:hover{
+        background-color: aliceblue;
+        color: blue;
+     }
+     p{
+        margin-bottom: 50px
+     }
+     a.btn{
+        margin-top: 50px;
+     }
+    
+     
+     @media(max-width:800px)
+     {
+        nav{display:flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items:center;
+
+            
+            width: 100%;
+            height: 100%;
+           
+            padding: 10px;
+            color: rgb(233, 239, 245);
+            background-color: #093434;
+            flex: 1 1;
+
+        }
+        nav .left{
+            font-size: larger;
+            font-weight: bold;
+            margin-bottom: 20px;
+            
+
+        }
+       nav .right ul{
+        display:inline-flex;
+        flex-direction:row;
+        align-items: center;
+        font-size: 0.5rem;
+        justify-content: center;
+                
+        
+
+       }
+        
+        .firstSection{
+            display: flex;
+            flex-direction: column-reverse;
+            
+        }
+        
+
+        
+     
+        
+        
+
+        
+        .firstSection>div{
+            width: 75%;
+        }
+        .purple{
+            justify-content: center;
+            margin:0 ;
+        }
+        .btn{
+            margin: 0;
+        }
+     
+            
+        }
+
+    
+     
